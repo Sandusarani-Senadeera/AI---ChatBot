@@ -9,7 +9,7 @@ const attachFileButton = document.querySelector("#attach-file");
 const chatForm = document.querySelector(".chat-form");
 
 // === API SETUP (⚠ keep key on server in production) ===
-const API_KEY = "AIzaSyCBB7T5d0PZDrI9E5Am-e7fhjZyxGX8pnk"; // <-- replace with your key
+const API_KEY = "Your_API_KEY"; // <-- replace with your key
 
 // text + images + docs (multimodal)
 const MULTI_MODEL_URL =
@@ -341,6 +341,7 @@ if (imageGenButton) {
     generateImageResponse(prompt);
   });
 }
+
 
 
 
